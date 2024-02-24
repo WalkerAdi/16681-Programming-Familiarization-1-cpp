@@ -171,27 +171,99 @@ namespace mrsd
 	}
 
 
-	int Controller::pickSafeSpot(const Game& g)
+	// int Controller::pickSafeSpot(const Game& g)
+	// {
+	// 	// Get the safe spots
+	// 	std::vector<bool> safeSpots = determineSafeSpots(g);
+
+	// 	// Get the width of the map
+	// 	const int mapLength = g.getWidth();
+
+	// 	// Get the current position of the player
+	// 	int left = p->x;
+	// 	//std::cout << "Player x: " << left << std::endl;
+	// 	int right = p->x;
+	// 	//std::cout << "Player x: " << right << std::endl;
+
+	// 	int moveLeft = 0;
+	// 	int moveRight = 0;
+	// 	int stepl = 0;
+	// 	int stepr = 0;
+
+	// 	// Check if the player is at a safe spot
+	// 	if (safeSpots.at(left) == true)
+	// 	{
+	// 		return 0;
+	// 	}
+
+	// 	// find the closest safe spot
+	// 	while (left > 0 && right < (mapLength))
+	// 	{
+	// 		std::cout << "Left: " << left << " Right: " << right << std::endl;
+	// 		std::cout << "SafeSpots: " << safeSpots.at(left-stepl) << " " << safeSpots.at(right+stepr) << std::endl;
+	// 		if ((left > 15) && (safeSpots.at(left-stepl) == false))
+	// 		{
+	// 			moveLeft += 1;
+	// 			stepl += 1;
+
+	// 		}
+	// 		if ((right < (mapLength - 15)) && (safeSpots.at(right+stepr) == false))
+	// 		{
+	// 			moveRight += 1;
+	// 			stepr += 1;
+	// 		}
+	// 		left -= 1;
+	// 		right += 1;
+	// 	}
+
+	// 	if (moveLeft > moveRight)
+	// 	{
+	// 		return -1;
+	// 	}
+	// 	else
+	// 	{
+	// 		return +1;
+	// 	}
+	// }
+
+		int Controller::pickSafeSpot(const Game& g)
 	{
 		// Get the safe spots
 		std::vector<bool> safeSpots = determineSafeSpots(g);
 
 		// Get the width of the map
-		const int mapLength = g.getWidth();
+		const size_t mapLength = g.getWidth();
 
 		// Get the current position of the player
-		int left = p->x;
-		std::cout << "Player x: " << left << std::endl;
-		int right = p->x;
-		std::cout << "Player x: " << right << std::endl;
+		size_t left = p->x;
+		size_t right = p->x;
 
-		int moveLeft = 0;
-		int moveRight = 0;
-		int stepl = 0;
-		int stepr = 0;
+
+		// Print out the map of safe spots
+		// std::cout << "Safe Spots Map:" << std::endl;
+		// for (size_t i = 0; i < mapLength; ++i)
+		// {
+		// 	std::cout << safeSpots[i];
+		// }
+		// std::cout << std::endl;
+
+		// Print out the current position of the player
+		// std::cout << "Current Position of Player: " << left << std::endl;
+		// std::vector<bool> playerMap(mapLength, false);
+		// playerMap[left] = true;
+		// for (size_t i = 0; i < mapLength; ++i)
+		// {
+		// 	std::cout << playerMap[i];
+		// }
+		// std::cout << std::endl;
+
+		size_t  moveLeft = 0;
+		size_t  moveRight = 0;
+		size_t  stepl = 0;
+		size_t  stepr = 0;
 
 		// Check if the player is at a safe spot
-		if (safeSpots.at(left) == true)
+		if (safeSpots[left] == true)
 		{
 			return 0;
 		}
@@ -199,13 +271,13 @@ namespace mrsd
 		// find the closest safe spot
 		while (left >= 0 && right < (mapLength))
 		{
-			if ((left > 15 && safeSpots.at(left+stepl) == false))
+			if ((left > 15 && safeSpots[left-stepl] == false))
 			{
 				++moveLeft;
 				--stepl;
 
 			}
-			if (right < (mapLength - 15) && safeSpots.at(right+stepr) == false)
+			if (right < (mapLength - 15) && safeSpots[right+stepr] == false)
 			{
 				++moveRight;
 				++stepr;
