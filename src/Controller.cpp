@@ -199,13 +199,13 @@ namespace mrsd
 		// find the closest safe spot
 		while (left >= 0 && right < (mapLength))
 		{
-			if ((left > 15 && safeSpots[left+stepl] == false))
+			if ((left > 15 && safeSpots.at(left+stepl) == false))
 			{
 				++moveLeft;
 				--stepl;
 
 			}
-			if (right < (mapLength - 15) && safeSpots[right+stepr] == false)
+			if (right < (mapLength - 15) && safeSpots.at(right+stepr) == false)
 			{
 				++moveRight;
 				++stepr;
