@@ -1,0 +1,21 @@
+# ninja log v5
+0	38	1708470586181360983	CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o	c904cf6cd996eeb4
+38	215	1708470586361355591	ThirdParty/glfw/src/CMakeFiles/glfw.dir/init.c.o	e28c5ee0ab8592d3
+1	237	1708470586377355112	CMakeFiles/glfw_test.dir/src/glad.c.o	d786d8d0bf89a7ba
+2	237	1708470586377355112	ThirdParty/glfw/src/CMakeFiles/glfw.dir/context.c.o	22fcb5ec0895c068
+237	384	1708470586529350560	ThirdParty/glfw/src/CMakeFiles/glfw.dir/monitor.c.o	408814f3258b044b
+238	422	1708470586569349362	ThirdParty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o	e51b8c2a4edde622
+221	447	1708470586589348763	ThirdParty/glfw/src/CMakeFiles/glfw.dir/input.c.o	952bdc8c96bdcde7
+384	555	1708470586701345408	ThirdParty/glfw/src/CMakeFiles/glfw.dir/window.c.o	33d97eb2fb81d952
+422	648	1708470586785342893	ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o	dea85de02a8b9bc5
+447	710	1708470586857340736	ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o	18dfbfa0c4ba7f43
+648	757	1708470586901339419	ThirdParty/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o	1ffcdd9bfb0c71b9
+710	786	1708470586929338580	ThirdParty/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o	7725880412295bab
+555	838	1708470586981337023	ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o	6bbc20bd9342ff33
+757	845	1708470586985336903	ThirdParty/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o	a2f9e479401982c2
+786	899	1708470587045335105	ThirdParty/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o	781e7c43fb5a6660
+845	937	1708470587081334027	ThirdParty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o	c9be4eb1806a0778
+838	946	1708470587089333787	ThirdParty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o	699eb8a1446d8687
+899	1020	1708470587165331509	ThirdParty/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o	d372f673531db29b
+1020	1047	1708470587193330671	ThirdParty/glfw/src/libglfw3.a	c4ef3efe822524bf
+1047	1116	1708470587261328632	glfw_test	648f52031ec5106

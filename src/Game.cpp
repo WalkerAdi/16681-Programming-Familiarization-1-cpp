@@ -3,6 +3,8 @@
 #include <cstdlib>
 #include "Frontend.h"
 #include <iostream>
+#include <chrono>
+#include <thread>
 
 namespace mrsd
 {
@@ -123,7 +125,12 @@ namespace mrsd
 		for(std::vector<Player*>::iterator it = players.begin(); it != players.end();)
 		{
 			if(!tickPlayer(**it))
-				it = players.erase(it);
+				{
+					it = players.erase(it);
+					std::cout << "Player is dead" << std::endl;
+					// Pause here
+					//std::this_thread::sleep_for(std::chrono::milliseconds(10000));
+				}
 			else
 				++it;
 		}

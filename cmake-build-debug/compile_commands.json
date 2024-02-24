@@ -1,0 +1,152 @@
+[
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include  -g -Wall -std=c++11 -g -fdiagnostics-color=always -o CMakeFiles/missiledefense.dir/src/startup.cpp.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/startup.cpp",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/startup.cpp",
+  "output": "CMakeFiles/missiledefense.dir/src/startup.cpp.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include  -g -Wall -std=c++11 -g -fdiagnostics-color=always -o CMakeFiles/missiledefense.dir/src/Game.cpp.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/Game.cpp",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/Game.cpp",
+  "output": "CMakeFiles/missiledefense.dir/src/Game.cpp.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -g -fdiagnostics-color=always -o CMakeFiles/missiledefense.dir/src/glad.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/glad.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/glad.c",
+  "output": "CMakeFiles/missiledefense.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include  -g -Wall -std=c++11 -g -fdiagnostics-color=always -o CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/gl_frontend.cpp",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/gl_frontend.cpp",
+  "output": "CMakeFiles/missiledefense.dir/src/gl_frontend.cpp.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include  -g -Wall -std=c++11 -g -fdiagnostics-color=always -o CMakeFiles/missiledefense.dir/src/glutils.cpp.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/glutils.cpp",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/glutils.cpp",
+  "output": "CMakeFiles/missiledefense.dir/src/glutils.cpp.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include  -g -Wall -std=c++11 -g -fdiagnostics-color=always -o CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/GLMesh.cpp",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/GLMesh.cpp",
+  "output": "CMakeFiles/missiledefense.dir/src/GLMesh.cpp.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include  -g -Wall -std=c++11 -g -fdiagnostics-color=always -o CMakeFiles/missiledefense.dir/src/Controller.cpp.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/Controller.cpp",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/Controller.cpp",
+  "output": "CMakeFiles/missiledefense.dir/src/Controller.cpp.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include  -g -Wall -std=c++11 -g -fdiagnostics-color=always -o CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/glfw_test.cpp",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/glfw_test.cpp",
+  "output": "CMakeFiles/glfw_test.dir/src/glfw_test.cpp.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -g -fdiagnostics-color=always -o CMakeFiles/glfw_test.dir/src/glad.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/glad.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/src/glad.c",
+  "output": "CMakeFiles/glfw_test.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/context.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/context.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/context.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/init.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/init.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/init.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/input.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/input.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/input.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/monitor.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/monitor.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/monitor.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/vulkan.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/vulkan.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/window.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/window.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/window.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/x11_init.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/x11_init.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/x11_monitor.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/x11_monitor.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/x11_window.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/x11_window.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/xkb_unicode.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/xkb_unicode.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/posix_time.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/posix_time.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/posix_thread.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/posix_thread.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/glx_context.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/glx_context.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/egl_context.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/egl_context.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/osmesa_context.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/osmesa_context.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -D_XOPEN_SOURCE=500 -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/include -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src -I/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/cmake-build-debug/ThirdParty/glfw/src -g -fPIC -fdiagnostics-color=always -Wall -o ThirdParty/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/linux_joystick.c",
+  "file": "/home/awalker/cpp/16681-Programming-Familiarization-1-cpp/ThirdParty/glfw/src/linux_joystick.c",
+  "output": "ThirdParty/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+}
+]

@@ -7,6 +7,7 @@
 #include <thread>
 using namespace mrsd;
 
+void setupScenarioCustom(Game&);
 void setupScenarioEasy(Game&);
 void setupScenarioMedium(Game&);
 void setupScenarioHard(Game&);
@@ -28,7 +29,7 @@ int main(void)
 	glfe.enemyScale = 3.f;
 
 	//Setup Scenario
-	setupScenarioEasy(g);
+    setupScenarioHard(g);
 	std::chrono::steady_clock::time_point start = std::chrono::steady_clock::now();
 	std::chrono::milliseconds wait(1000/60);
 	while(!glfe.shouldClose(g))
@@ -44,6 +45,24 @@ int main(void)
 	}
 	glfe.finish(g);
 	return 0;
+}
+
+
+void setupScenarioCustom(Game& g)
+{
+	//Setup Game Constants
+	g.explosionTime = 2.f;
+	g.explosionSize = 5.f;
+	g.playerSpeed = .25f;
+
+	//Construct Enemies
+	Enemy& e = g.newEnemy(g.getWidth()/2, 10);
+	e.minAngle = 3.14159f/2 - .3f;
+	e.maxAngle = 3.14159f/2 + .3f;
+	e.minForce = 50;
+	e.maxForce = 51;
+	e.firingRandomness = .1f;
+	e.firingSpeed = 10.0;//1.0f; //1e-2f;
 }
 
 
