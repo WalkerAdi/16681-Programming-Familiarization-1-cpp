@@ -1,10 +1,10 @@
 #include "Controller.h"
 #include <cmath>
-#include <iostream>
+// #include <iostream>
 
-// Comment these and their respective uses out after debugging
-#include <chrono>
-#include <thread>
+// // Comment these and their respective uses out after debugging
+// #include <chrono>
+// #include <thread>
 namespace mrsd
 {
 	// This function will control the AI based on the state of the game
@@ -186,21 +186,21 @@ namespace mrsd
 
 		// Print out the map of safe spots
 		// std::cout << "Safe Spots Map:" << std::endl;
-		for (size_t i = 0; i < mapLength; ++i)
-		{
-			std::cout << safeSpots[i];
-		}
-		std::cout << std::endl;
+		// for (size_t i = 0; i < mapLength; ++i)
+		// {
+		// 	std::cout << safeSpots[i];
+		// }
+		// std::cout << std::endl;
 
 		// Print out the current position of the player
 		// std::cout << "Current Position of Player: " << left << std::endl;
-		std::vector<bool> playerMap(mapLength, false);
-		playerMap[left] = true;
-		for (size_t i = 0; i < mapLength; ++i)
-		{
-			std::cout << playerMap[i];
-		}
-		std::cout << std::endl;
+		// std::vector<bool> playerMap(mapLength, false);
+		// playerMap[left] = true;
+		// for (size_t i = 0; i < mapLength; ++i)
+		// {
+		// 	std::cout << playerMap[i];
+		// }
+		// std::cout << std::endl;
 
 		size_t  moveLeft = 0;
 		size_t  moveRight = 0;
