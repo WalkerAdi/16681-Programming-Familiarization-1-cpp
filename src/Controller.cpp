@@ -204,7 +204,7 @@ namespace mrsd
 
 		size_t  moveLeft = 0;
 		size_t  moveRight = 0;
-		size_t  stepl = 0;
+		ssize_t  stepl = 0;
 		size_t  stepr = 0;
 
 		// Check if the player is at a safe spot
@@ -216,7 +216,7 @@ namespace mrsd
 		// find the closest safe spot
 		while (left >= 0 && right < (mapLength))
 		{
-			if ((left > 15 && safeSpots[left-stepl] == false))
+			if ((left > 15 && safeSpots[left+stepl] == false))
 			{
 				++moveLeft;
 				--stepl;
