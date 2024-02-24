@@ -1,6 +1,6 @@
 #include "Controller.h"
 #include <cmath>
-// #include <iostream>
+#include <iostream>
 
 // // Comment these and their respective uses out after debugging
 // #include <chrono>
@@ -181,26 +181,9 @@ namespace mrsd
 
 		// Get the current position of the player
 		int left = p->x;
+		std::cout << "Player x: " << left << std::endl;
 		int right = p->x;
-
-
-		// Print out the map of safe spots
-		// std::cout << "Safe Spots Map:" << std::endl;
-		// for (size_t i = 0; i < mapLength; ++i)
-		// {
-		// 	std::cout << safeSpots[i];
-		// }
-		// std::cout << std::endl;
-
-		// Print out the current position of the player
-		// std::cout << "Current Position of Player: " << left << std::endl;
-		// std::vector<bool> playerMap(mapLength, false);
-		// playerMap[left] = true;
-		// for (size_t i = 0; i < mapLength; ++i)
-		// {
-		// 	std::cout << playerMap[i];
-		// }
-		// std::cout << std::endl;
+		std::cout << "Player x: " << right << std::endl;
 
 		int moveLeft = 0;
 		int moveRight = 0;
@@ -208,7 +191,7 @@ namespace mrsd
 		int stepr = 0;
 
 		// Check if the player is at a safe spot
-		if (safeSpots[left] == true)
+		if (safeSpots.at(left) == true)
 		{
 			return 0;
 		}
