@@ -116,7 +116,7 @@ namespace mrsd
 		// Get the number of projectiles
 		const size_t numProjectiles = projectiles.size();
 		// Get the number of explosions
-		const size_t numExplosions = explosions.size();
+		// const size_t numExplosions = explosions.size();
 
 		// Get the width of the map
 		const size_t mapLength = g.getWidth();
@@ -139,12 +139,12 @@ namespace mrsd
 		}
 
 		// Overlay all projectiles on the SafeSpots map
-		for (int i = 0; i < numProjectiles; ++i)
+		for (size_t i = 0; i < numProjectiles; ++i)
 		{
 			Prediction pred = allPreds[i];
-			int start = std::floor(pred.x - 1.2 * explosionSize);
-			int end = std::ceil(pred.x + 1.2 * explosionSize);
-			for (int j = start; j <= end; ++j)
+			size_t start = std::floor(pred.x - 1.2 * explosionSize);
+			size_t end = std::ceil(pred.x + 1.2 * explosionSize);
+			for (size_t j = start; j <= end; ++j)
 			{
 				if (j >= 0 && j < mapLength)
 				{
@@ -156,9 +156,9 @@ namespace mrsd
 		// Overlay all explosions on the SafeSpots map
 		for (const Explosion& explosion : explosions)
 		{
-			int start = std::floor(explosion.x - 1.2 * explosionSize);
-			int end = std::ceil(explosion.x + 1.2 * explosionSize);
-			for (int i = start; i <= end; ++i)
+			const size_t start = std::floor(explosion.x - 1.2 * explosionSize);
+			const size_t end = std::ceil(explosion.x + 1.2 * explosionSize);
+			for (size_t i = start; i <= end; ++i)
 			{
 				if (i >= 0 && i < mapLength)
 				{
@@ -180,13 +180,13 @@ namespace mrsd
 		const size_t mapLength = g.getWidth();
 
 		// Get the current position of the player
-		int left = p->x;
-		int right = p->x;
+		size_t left = p->x;
+		size_t right = p->x;
 
 
 		// Print out the map of safe spots
 		// std::cout << "Safe Spots Map:" << std::endl;
-		for (int i = 0; i < mapLength; ++i)
+		for (size_t i = 0; i < mapLength; ++i)
 		{
 			std::cout << safeSpots[i];
 		}
@@ -196,16 +196,16 @@ namespace mrsd
 		// std::cout << "Current Position of Player: " << left << std::endl;
 		std::vector<bool> playerMap(mapLength, false);
 		playerMap[left] = true;
-		for (int i = 0; i < mapLength; ++i)
+		for (size_t i = 0; i < mapLength; ++i)
 		{
 			std::cout << playerMap[i];
 		}
 		std::cout << std::endl;
 
-		int moveLeft = 0;
-		int moveRight = 0;
-		int stepl = 0;
-		int stepr = 0;
+		size_t  moveLeft = 0;
+		size_t  moveRight = 0;
+		size_t  stepl = 0;
+		size_t  stepr = 0;
 
 		// Check if the player is at a safe spot
 		if (safeSpots[left] == true)
