@@ -177,11 +177,11 @@ namespace mrsd
 		std::vector<bool> safeSpots = determineSafeSpots(g);
 
 		// Get the width of the map
-		const size_t mapLength = g.getWidth();
+		const int mapLength = g.getWidth();
 
 		// Get the current position of the player
-		size_t left = p->x;
-		size_t right = p->x;
+		int left = p->x;
+		int right = p->x;
 
 
 		// Print out the map of safe spots
@@ -202,10 +202,10 @@ namespace mrsd
 		// }
 		// std::cout << std::endl;
 
-		size_t  moveLeft = 0;
-		size_t  moveRight = 0;
-		ssize_t  stepl = 0;
-		size_t  stepr = 0;
+		int moveLeft = 0;
+		int moveRight = 0;
+		int stepl = 0;
+		int stepr = 0;
 
 		// Check if the player is at a safe spot
 		if (safeSpots[left] == true)
